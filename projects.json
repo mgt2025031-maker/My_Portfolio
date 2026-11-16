@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "title": "Ceylon Tea Website",
+    "category": "Web Design",
+    "client": "Kandy Tea Leaves",
+    "tools": "HTML, CSS, JavaScript",
+    "year": "2026",
+    "image": "https://images.unsplash.com/photo-1547658719-da2b51169166?auto=format&fit=crop&w=700&q=80",
+    "description": "A simple online shop website made for a Sri Lankan tea company."
+  },
+  {
+    "id": 2,
+    "title": "EasyPay Mobile App",
+    "category": "App Design",
+    "client": "Lanka Digital",
+    "tools": "Figma",
+    "year": "2026",
+    "image": "https://images.unsplash.com/photo-1551650975-87deedd944c3?auto=format&fit=crop&w=700&q=80",
+    "description": "A clean mobile app design for sending money and paying bills easily."
+  },
+  {
+    "id": 3,
+    "title": "Hill Country Nature Photos",
+    "category": "Photography",
+    "client": "Travel Sri Lanka",
+    "tools": "DSLR Camera, Lightroom",
+    "year": "2025",
+    "image": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=700&q=80",
+    "description": "A photo collection of green mountains and waterfalls in Nuwara Eliya."
+  },
+  {
+    "id": 4,
+    "title": "City Bus Tracker App",
+    "category": "App Design",
+    "client": "Metro Transport",
+    "tools": "Figma",
+    "year": "2026",
+    "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=700&q=80",
+    "description": "A user-friendly app screen design to check bus times and routes in Colombo."
+  },
+  {
+    "id": 5,
+    "title": "Modern House Website",
+    "category": "Web Design",
+    "client": "Colombo Homes",
+    "tools": "HTML, CSS Grid, JavaScript",
+    "year": "2025",
+    "image": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=700&q=80",
+    "description": "A responsive website showing house designs and building plans."
+  },
+  {
+    "id": 6,
+    "title": "Coffee Shop Photo Shoot",
+    "category": "Photography",
+    "client": "Aroma Coffee",
+    "tools": "Studio Camera, Photo Editing",
+    "year": "2026",
+    "image": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=700&q=80",
+    "description": "Bright and clear food and coffee photos taken for a local cafe menu."
+  }
+]

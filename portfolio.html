@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kasun Wijewardana | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Header & Navigation -->
+    <header>
+        <div class="container nav-container">
+            <a href="index.html" class="logo">Kasun <span>Wijewardana</span></a>
+
+            <div class="nav-controls">
+                <button id="theme-toggle" class="theme-btn" aria-label="Toggle Dark Mode" title="Switch Theme">&#9790;</button>
+                <button class="menu-toggle" id="mobile-menu" aria-label="Toggle Menu" aria-expanded="false">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
+            </div>
+
+            <nav>
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="portfolio.html" class="active">Portfolio</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <section class="portfolio-section container">
+            <h2 class="section-title">My Portfolio</h2>
+            <p class="section-subtitle">Click a category button to filter projects, or click "View Details" to read more.</p>
+
+            <!-- Category Filter Buttons -->
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-category="all">All</button>
+                <button class="filter-btn" data-category="Web Design">Web Design</button>
+                <button class="filter-btn" data-category="App Design">App Design</button>
+                <button class="filter-btn" data-category="Photography">Photography</button>
+            </div>
+
+            <!-- Dynamic Portfolio Grid (Loaded from projects.json) -->
+            <div class="portfolio-grid" id="portfolio-grid">
+                <!-- Project cards will appear here -->
+            </div>
+        </section>
+    </main>
+
+    <!-- Modal Popup for Project Details -->
+    <div class="modal-overlay" id="project-modal" aria-hidden="true">
+        <div class="modal-box">
+            <button class="modal-close" id="modal-close" aria-label="Close Modal">&times;</button>
+            <img id="modal-img" src="" alt="Project Photo">
+            <div class="modal-body">
+                <span class="badge" id="modal-category">Category</span>
+                <h3 id="modal-title">Project Name</h3>
+                <p id="modal-desc">Project details go here.</p>
+                <div class="modal-meta">
+                    <p><strong>Client:</strong> <span id="modal-client"></span></p>
+                    <p><strong>Tools:</strong> <span id="modal-tools"></span></p>
+                    <p><strong>Year:</strong> <span id="modal-year"></span></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-content">
+            <p>&copy; 2026 <strong>Kasun Wijewardana</strong>. All Rights Reserved.</p>
+            <p>Colombo, Sri Lanka | Web Design, Development &amp; Photography</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
